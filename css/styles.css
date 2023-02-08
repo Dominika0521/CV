@@ -1,0 +1,225 @@
+body {
+    background-color: #f2f9e2;
+    margin: 0;
+    text-align: center; /* it will center everything that does not have the width set and is inline-block or
+    take the whole width space */
+    font-family: 'Itim', cursive, serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+     /* monospace is for adding the code */
+    /* For most browsers, the default serif is the times font and the default sans-serif is Arial */
+
+}
+
+.first_block_settings{
+    color: #AACB73;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive, serif;
+    font-size: 8rem;
+    line-height: 1.5    ;
+
+    /* font-weight: normal/bold etc */
+}
+
+
+
+h1 {
+    color: #AACB73;
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive, serif;
+    font-size: 5rem;
+
+    /*
+        100% = 16px
+
+
+       1em = 16px
+
+       rem  - ignore all of the parent's settings. em is just inherited from the parent
+
+
+     */
+
+
+    /* width: 10%;
+    margin: 0 auto 0 auto;*/  /* we can shorten this by specifying 0 auto  https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
+    /* margin top 0, margin right is auto, margin at the bottom is 0, margin on the left auto ===>
+     to keep it in the center horizontal alignment */
+}
+
+
+p {
+    font-size: 30px;
+    margin-top: 0;
+    font-family: 'Itim', cursive, serif;
+}
+
+h2 {
+
+    font-size: 3.5rem;
+    margin-top: 0;
+    font-family: 'Itim', cursive, serif;
+
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: 'Itim', cursive, serif;
+    text-align: center;
+
+}
+
+li {
+    font-size: 30px;
+    margin-top: 1%;
+    font-family: 'Itim', cursive, serif;
+    width: 50%;
+    position: relative;
+    left: 25%;
+
+}
+
+.link {
+    color: #CDE990;
+    margin-right: 20px;
+}
+
+.link:hover {
+    color: #FFFFE8;
+}
+
+
+
+#top-container {
+    background-color: #ECF9FF;
+    position: relative;
+    padding-top: 10%;
+    height: 310px;
+}
+
+
+.mountain{
+    height: 200px;
+    position: absolute;
+    right: 0.1%;
+    top: 0.2%;
+    height: 100%;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+
+
+.top_cloud{
+    position: absolute; /* To have this cloud in the top container we need to add there a position: relative */
+    left: 60%;
+    top: 10%;
+}
+
+.bottom_cloud {
+    position: absolute;
+    right: 60%;
+    top: 30%;
+}
+
+
+
+.middle-container{
+    background-color: #f2f9e2;
+    position: relative;
+    padding-top: 0;
+    height: auto;
+    margin-top: 1%;
+
+
+
+}
+
+.work_experience{
+    position: relative;
+
+}
+
+.work_experience-row{
+
+}
+
+
+.bottom-container{
+    background-color: #AACB73;
+    position: relative;
+    margin-top: 15%;
+    height: 1%;
+    padding-top: 2rem;
+    font-size: 2rem;
+
+}
+
+hr {
+    border: 1px solid #AACB73;
+}
+
+.profile{
+    width:90%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-family: 'Itim', cursive, serif;
+
+}
+
+.portfolio{
+    padding-bottom: 2%;
+
+}
+
+.note{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.copyright {
+    margin: 0 auto;
+    color: #CDE990;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.footer-link {
+    color: #CDE990;
+    margin-right: 20px;
+}
+
+.footer-link:hover {
+    color: #FFFFE8;
+}
+
+.btn {
+  background: #AACB73;
+  background-image: -webkit-linear-gradient(top, #AACB73,  #CDE990);
+  background-image: -moz-linear-gradient(top, #AACB73,  #CDE990);
+  background-image: -ms-linear-gradient(top, #AACB73,  #CDE990);
+  background-image: -o-linear-gradient(top, #AACB73,  #CDE990);
+  background-image: linear-gradient(to bottom, #AACB73,  #CDE990);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f0f9df;
+  text-decoration: none;
+}
