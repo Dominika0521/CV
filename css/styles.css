@@ -1,3 +1,10 @@
+/* Position
+- relative (it changes bearing in mind where it used to be)
+- absolute (it changes bearing in mind the div for example)
+
+*/
+
+
 body {
     background-color: #f2f9e2;
     margin: 0;
@@ -100,12 +107,12 @@ li {
 }
 
 
-.mountain{
-    position: absolute;
-    right: 0.1%;
-    top: 50%;
-    height: 50%;
-}
+    .mountain{
+        position: absolute;
+        right: 0.1%;
+        top: 50%;
+        height: 50%;
+    }
 
 .pro{
     text-decoration: underline;
@@ -213,8 +220,8 @@ hr {
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 15px;
-  padding: 10px 20px 10px 20px;
+  font-size: 25px;
+  padding: 30px 20px 10px 20px;
   text-decoration: none;
 }
 
@@ -222,3 +229,4 @@ hr {
   background: #f0f9df;
   text-decoration: none;
 }
+
