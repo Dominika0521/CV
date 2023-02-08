@@ -221,8 +221,10 @@ hr {
   font-family: Arial;
   color: #ffffff;
   font-size: 25px;
-  padding: 30px 20px 10px 20px;
+  padding: 30px 50px 30px 50px;
   text-decoration: none;
+  position: relative;
+  top: 15rem;
 }
 
 .btn:hover {
