@@ -209,26 +209,26 @@ hr {
 }
 
 .btn {
-  background: #AACB73;
-  background-image: -webkit-linear-gradient(top, #AACB73,  #CDE990);
-  background-image: -moz-linear-gradient(top, #AACB73,  #CDE990);
-  background-image: -ms-linear-gradient(top, #AACB73,  #CDE990);
-  background-image: -o-linear-gradient(top, #AACB73,  #CDE990);
-  background-image: linear-gradient(to bottom, #AACB73,  #CDE990);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 25px;
-  padding: 30px 50px 30px 50px;
-  text-decoration: none;
-  position: relative;
-  top: 15rem;
+    background: #AACB73;
+    background-image: -webkit-linear-gradient(top, #AACB73,  #CDE990);
+    background-image: -moz-linear-gradient(top, #AACB73,  #CDE990);
+    background-image: -ms-linear-gradient(top, #AACB73,  #CDE990);
+    background-image: -o-linear-gradient(top, #AACB73,  #CDE990);
+    background-image: linear-gradient(to bottom, #AACB73,  #CDE990);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 30px 50px 30px 50px;
+    text-decoration: none;
+    position: relative;
+    top: 5rem;
 }
 
 .btn:hover {
-  background: #f0f9df;
-  text-decoration: none;
-}
+    background: #f0f9df;
+    text-decoration: none;
+    }
 
